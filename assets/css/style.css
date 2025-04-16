@@ -166,7 +166,7 @@ main .intro h6{
     width: fit-content;
     color: black;
     border-radius: 50px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     margin-bottom: 1rem;
 }
@@ -200,3 +200,73 @@ main .sub-intro{
     align-items: center;
 }
 /*#endregion*/
+/*#region NEWSLETTER   */
+
+.newsletter{
+    display: flex;
+    background-color: #d7f2f7;
+    box-shadow: 0 10px 10px rgb(255, 240, 240);
+    padding: 5rem 18rem;
+    margin-bottom: 5rem;
+}
+
+.newsletter h6{
+    background-color: #BEE1E6;
+    padding: 10px 26px;
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.newsletter h1{font-size: 42px;}
+
+.newsletter .subtitle{margin: 24px 0 3rem 0;}
+
+.newsletter .grid{display: flex;}
+
+.newsletter .grid .comment .text{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 20px;
+}
+/*#endregion*/
+/*#region FOOTER*/
+footer .links{
+    display: grid;
+    padding: 0 10rem;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+footer .links .link h2{
+    font-size: 16px;
+    margin: 0 0 1rem 0;
+}
+
+footer .links .link ul li{
+    font-weight: 300;
+    line-height: 200%;
+}
+
+footer .links .link ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+footer .links .link ul li a:hover{cursor: pointer;}
+
+footer .end-sesh{
+    display: flex;
+    background-color: #006D77;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
